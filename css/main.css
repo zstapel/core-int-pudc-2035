@@ -20,12 +20,21 @@ html {
 main {
   display: grid;
   grid-template-columns: 2fr 1fr :
-  grid-auto-row:main-content;
+  grid-auto-row:min-content;
   grid-gap:2rem;
   width: 40vw;
   margin: 0 auto;
 }
 
+.intro-block {
+  grid-column: 1 / 3;
+}
+.location {
+  font-size: 1rem;
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+  line-height: 1.5;
+}
 /*
  * Remove text-shadow in selection highlight:
  * https://twitter.com/miketaylr/status/12228805301
