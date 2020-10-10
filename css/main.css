@@ -19,7 +19,17 @@ html {
 
 body {
   padding:5rem 0;
-  color: ;
+  color: #333F48;
+}
+
+a {
+  text-decoration: underline;
+  color: #ae7f3d;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #ae7f3d;
 }
 
 main {
