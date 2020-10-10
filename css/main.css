@@ -41,6 +41,10 @@ main {
   margin: 0 auto;
 }
 
+.figure {
+  grid-column: 1 / 3;
+}
+
 .intro-block {
   grid-column: 1 / 3;
 }
