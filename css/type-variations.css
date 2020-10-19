@@ -49,7 +49,7 @@ li {
 }
 
 h1, h2, h3, h4, h5 {
-	font-family: 'Cabin' sans-serif;
+	font-family: 'Cabin', sans-serif;
 	margin-bottom:1rem;
 }
 
@@ -61,8 +61,9 @@ h1 {
 h2 {
 	font-size:2.25rem;
 }
+
 h3{
-	fomt-soze:1.5rem;
+	font-size:1.5rem;
 
 }
 h4 {
