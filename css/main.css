@@ -41,6 +41,30 @@ main {
   margin: 0 auto;
 }
 
+nav {
+    border-bottom: 1px solid black;
+}
+
+.crumbs ol {
+    list-style-type: none;
+    padding-left: 0;
+    text-align: center;
+}
+
+.crumb {
+    display: inline-block;
+    padding-right: 1rem;
+}
+
+.crumb a::after {
+    display: inline-block;
+    color: #000;
+    font-size: 80%;
+    font-weight: bold;
+    padding: 0 3px;
+}
+
+
 
 p {
   display: grid;
@@ -111,6 +135,7 @@ figure {
 h1, h2, h3, h4, h5 {
   font-family: 'Oswald', sans-serif;
   margin-bottom:0rem;
+  color: #000;
 }
 
 
